@@ -66,7 +66,7 @@
     }
 
     .hero {
-      min-height: 88vh;
+      background: #edf2f6;
       display: flex;
       align-items: center;
       padding: 5rem 0;
@@ -74,7 +74,7 @@
 
     .hero-grid {
       display: grid;
-      grid-template-columns: 1.3fr 0.7fr;
+      grid-template-columns: minmax(0, 1fr) 300px;
       gap: 4rem;
       align-items: center;
     }
@@ -95,18 +95,10 @@
       list-style: disc outside;
     }
 
-    .profile-card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 24px;
-      padding: 2rem;
-      box-shadow: var(--shadow);
-    }
-
     .profile-image {
-      width: min(250px, 100%);
+      width: min(300px, 100%);
       aspect-ratio: 1 / 1;
-      margin: 0 auto 1.5rem auto;
+      margin: 0 auto;
       border-radius: 18px;
       overflow: hidden;
       background: var(--bg);
