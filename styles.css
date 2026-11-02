@@ -81,7 +81,7 @@
 
     .hero p,
     .hero .research-interests {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       line-height: 1.7;
     }
 
@@ -234,7 +234,7 @@
     }
 
     .research-copy p {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       margin-bottom: 1rem;
     }
 
@@ -275,4 +275,8 @@
     .research-copy a {
       text-decoration: underline;
       text-underline-offset: 0.15em;
+    }
+
+    .card p {
+      font-size: 1.1rem;
     }
