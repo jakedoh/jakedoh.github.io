@@ -80,7 +80,12 @@
     .hero p {
       font-size: 1.1rem;
       max-width: 700px;
-      margin-bottom: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .research-interests {
+      font-size: 1.1rem;
+      padding-left: 2rem;
     }
 
     .profile-card {
