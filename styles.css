@@ -271,3 +271,8 @@
     .research-subsection .section-title {
       font-size: 2rem;
     }
+
+    .research-copy a {
+      text-decoration: underline;
+      text-underline-offset: 0.15em;
+    }
