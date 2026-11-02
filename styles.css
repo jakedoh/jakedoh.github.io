@@ -252,3 +252,7 @@
     @media (max-width: 850px) {
       .research-grid { grid-template-columns: 1fr; }
     }
+
+    .research-subsection {
+      background: #edf2f6;
+    }
