@@ -51,10 +51,12 @@
     }
 
     .nav-inner {
+      width: 100%;
+      margin: 0;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 1rem 0;
+      padding: 1rem;
     }
 
     .nav-links {
@@ -77,15 +79,20 @@
       align-items: center;
     }
 
-    .hero p {
+    .hero p,
+    .hero .research-interests {
       font-size: 1.1rem;
+      line-height: 1.7;
+    }
+
+    .hero p {
       max-width: 700px;
       margin-bottom: 0.5rem;
     }
 
     .research-interests {
-      font-size: 1.1rem;
-      padding-left: 2rem;
+      padding-inline-start: 3rem;
+      list-style: disc outside;
     }
 
     .profile-card {
@@ -201,7 +208,7 @@
       }
 
       .nav-inner {
-        flex-direction: column;
+        flex-wrap: wrap;
         gap: 1rem;
       }
 
@@ -213,3 +220,5 @@
     .card a { text-decoration: underline; }
     body { min-height: 100vh; display: flex; flex-direction: column; }
     main { flex: 1; }
+
+    #research { scroll-margin-top: 5rem; }
