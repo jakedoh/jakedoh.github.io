@@ -214,3 +214,10 @@
     main { flex: 1; }
 
     #research { scroll-margin-top: 5rem; }
+
+    .home-main {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-block: 3rem;
+    }
