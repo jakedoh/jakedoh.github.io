@@ -216,6 +216,7 @@
     #research { scroll-margin-top: 5rem; }
 
     .home-main {
+      background: #edf2f6;
       display: flex;
       flex-direction: column;
       justify-content: center;
