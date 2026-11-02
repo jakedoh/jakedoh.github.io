@@ -256,3 +256,14 @@
     .research-subsection {
       background: #edf2f6;
     }
+
+    .collision-movie {
+      width: min(100%, 480px);
+      justify-self: center;
+    }
+
+    .collision-movie video {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
