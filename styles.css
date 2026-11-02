@@ -213,7 +213,6 @@
     body { min-height: 100vh; display: flex; flex-direction: column; }
     main { flex: 1; }
 
-    #research { scroll-margin-top: 5rem; }
 
     .home-main {
       background: #edf2f6;
@@ -221,4 +220,35 @@
       flex-direction: column;
       justify-content: center;
       padding-block: 3rem;
+    }
+
+    .research-section {
+      background: var(--bg);
+    }
+
+    .research-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 3rem;
+      align-items: center;
+    }
+
+    .research-copy p {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+
+    .research-figure img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .research-figure figcaption {
+      margin-top: 0.75rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 850px) {
+      .research-grid { grid-template-columns: 1fr; }
     }
