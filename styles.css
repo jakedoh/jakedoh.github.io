@@ -9,7 +9,7 @@
       --bg-secondary: #ffffff;
       --text: #000000;
       --muted: #000000;
-      --accent: #000000;
+      --accent: #23658a;
       --card: #ffffff;
       --border: rgba(0,0,0,0.15);
       --shadow: 0 10px 40px rgba(0,0,0,0.08);
@@ -343,6 +343,8 @@
       }
 
       .accretion-layout .collision-movie {
+        width: 100%;
+        justify-self: start;
         position: relative;
         min-height: 0;
       }
