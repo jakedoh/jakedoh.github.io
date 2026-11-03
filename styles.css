@@ -332,3 +332,26 @@
     p {
       text-indent: 1.5em;
     }
+
+    @media (min-width: 851px) {
+      .accretion-layout {
+        align-items: stretch;
+      }
+
+      .accretion-layout .research-copy p:last-child {
+        margin-bottom: 0;
+      }
+
+      .accretion-layout .collision-movie {
+        position: relative;
+        min-height: 0;
+      }
+
+      .accretion-layout .collision-movie video {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
