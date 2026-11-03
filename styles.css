@@ -333,27 +333,8 @@
       text-indent: 1.5em;
     }
 
-    @media (min-width: 851px) {
-      .accretion-layout {
-        align-items: stretch;
-      }
-
-      .accretion-layout .research-copy p:last-child {
-        margin-bottom: 0;
-      }
-
-      .accretion-layout .collision-movie {
-        width: 100%;
-        justify-self: start;
-        position: relative;
-        min-height: 0;
-      }
-
-      .accretion-layout .collision-movie video {
-        position: absolute;
-        inset: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-      }
+    .accretion-layout figcaption {
+      margin-top: 0.75rem;
+      font-size: 0.9rem;
+      line-height: 1.5;
     }
