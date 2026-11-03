@@ -324,3 +324,7 @@
     .email-text {
       font-weight: 700;
     }
+
+    .research-subsection + .research-subsection {
+      margin-top: 4rem;
+    }
