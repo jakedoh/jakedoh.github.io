@@ -298,3 +298,14 @@
       min-height: 400px;
       border: 1px solid var(--border);
     }
+
+    .home-contact {
+      margin-top: 1.5rem;
+    }
+
+    .home-contact a,
+    .email-text {
+      color: #23658a;
+      text-decoration: underline;
+      text-underline-offset: 0.15em;
+    }
