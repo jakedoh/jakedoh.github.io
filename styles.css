@@ -315,9 +315,12 @@
       margin-top: 1.5rem;
     }
 
-    .home-contact a,
-    .email-text {
+    .home-contact a {
       color: #23658a;
       text-decoration: underline;
       text-underline-offset: 0.15em;
+    }
+
+    .email-text {
+      font-weight: 700;
     }
